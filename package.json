@@ -1,0 +1,15 @@
+{
+    "name": "my-music-app",
+    "version": "1.0.0",
+    "main": "JS/index.js",
+    "scripts": {
+      "start": "node JS/index.js",
+      "build": "npm install"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "fs": "0.0.1-security",
+      "path": "0.12.7"
+    }
+  }
+  
