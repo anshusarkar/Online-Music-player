@@ -1,4 +1,15 @@
 console.log('lets write Javascript');
+import express from 'express'; 
+const app = express();
+
+
+
+// The crucial part for Render deployment:
+const port = process.env.PORT || 3000;  // Use environment variable PORT or 3000
+
+app.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
+});
 let currentSong = new Audio();
 let songs;
 let currFolder;
