@@ -1,12 +1,12 @@
-console.log('lets write Javascript');
-import express from 'express'; 
+import express from 'express'; // Use ES module syntax
 const app = express();
+const port = process.env.PORT || 3000;
 
+// ... your server-side routes and logic ...
 
-
-// The crucial part for Render deployment:
-const port = process.env.PORT || 3000;  // Use environment variable PORT or 3000
-
+app.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
+});
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });

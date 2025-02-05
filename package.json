@@ -1,15 +1,16 @@
 {
     "name": "my-music-app",
     "version": "1.0.0",
-    "main": "JS/index.js",
+    "main": "JS/script.js",
     "scripts": {
-      "start": "node JS/script.js",
-      "build": "npm install"
+      "start": "node JS/index.js",
+      "build": "yarn install"
     },
     "dependencies": {
-      "express": "^4.17.1",
-      "fs": "0.0.1-security",
-      "path": "0.12.7"
+      "express": "^4.17.1"
+    },
+    "type": "module", 
+    "engines": {
+      "node": "16.x" 
     }
-  }
-  
+}
