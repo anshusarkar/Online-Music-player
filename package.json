@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "main": "JS/script.js",
     "scripts": {
-      "start": "node JS/index.js",
+      "start": "node JS/script.js",
       "build": "yarn install"
     },
     "dependencies": {
